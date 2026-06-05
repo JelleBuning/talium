@@ -19,19 +19,19 @@ Your goal is to help me design robust error handling using the ErrorOr pattern, 
 
 Use `ErrorOr<T>` for **expected failures** in domain and application logic:
 
-- ✅ Validation failures (invalid email, password too weak)
-- ✅ Not found (user doesn't exist, document not found)
-- ✅ Business rule violations (conflict, duplicate, insufficient balance)
-- ✅ Authentication/authorization failures (unauthorized, forbidden)
+- Validation failures (invalid email, password too weak)
+- Not found (user doesn't exist, document not found)
+- Business rule violations (conflict, duplicate, insufficient balance)
+- Authentication/authorization failures (unauthorized, forbidden)
 
 ### When to Throw Exceptions
 
 Throw exceptions **only** for unrecoverable, truly exceptional conditions:
 
-- ✅ Null reference (null argument passed, unexpected null from database)
-- ✅ System resource exhaustion (out of memory, disk full)
-- ✅ Unexpected external service failure (assuming it's temporary)
-- ✅ Configuration errors (missing required setting at startup)
+- Null reference (null argument passed, unexpected null from database)
+- System resource exhaustion (out of memory, disk full)
+- Unexpected external service failure (assuming it's temporary)
+- Configuration errors (missing required setting at startup)
 
 **Example**: Document not found → `ErrorOr<Document>` (expected). Database connection dropped → exception (unrecoverable).
 
