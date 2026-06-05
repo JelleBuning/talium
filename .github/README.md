@@ -42,12 +42,9 @@
 
 
 ## About The Project
+Talium is a self-hosted, secure document vault designed to help individuals and teams organize, store, and protect sensitive digital assets. Built with a focus on absolute privacy and high performance, Talium acts as a centralized repository for your critical files, contracts, financial records, and personal data. 
 
-This is a generic template for your next project. To get started, simply perform a **Search and Replace** in your editor for the following variables:
-* `JelleBuning`
-* `talium`
-* `Talium`
-* `Talium document vault`
+By eliminating reliance on third-party cloud providers, Talium gives you complete ownership of your data, wrapped in an intuitive interface that makes document retrieval and management effortless.
 
 ### Features
 
