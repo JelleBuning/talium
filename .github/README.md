@@ -7,13 +7,13 @@
 [![GNU Affero General Public License v3.0 License][license-shield]][license-url]
 
 <div align="center">
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Talium</h3>
   <p align="center">
-    project_description
+    Talium document vault
     <br />
-    <a href="https://github.com/github_user/repository_name/issues">Report Bug</a>
+    <a href="https://github.com/JelleBuning/talium/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_user/repository_name/issues">Request Feature</a>
+    <a href="https://github.com/JelleBuning/talium/issues">Request Feature</a>
   </p>
 </div>
 
@@ -44,10 +44,10 @@
 ## About The Project
 
 This is a generic template for your next project. To get started, simply perform a **Search and Replace** in your editor for the following variables:
-* `github_user`
-* `repo_name`
-* `project_title`
-* `project_description`
+* `JelleBuning`
+* `talium`
+* `Talium`
+* `Talium document vault`
 
 ### Features
 
@@ -74,11 +74,11 @@ This installation method utilizes Docker Compose for a streamlined setup. Ensure
 
     ```yaml
     version: '3.4'
-    name: repository_name
+    name: talium
     services:
-      repository_name:
-        container_name: "repository_name"
-        image: ghcr.io/github_user/repository_name
+      talium:
+        container_name: "talium"
+        image: ghcr.io/JelleBuning/talium
     ```
 
 2.  **Run Docker Compose:**
@@ -117,13 +117,13 @@ Distributed under the GNU Affero General Public License v3.0 License. See `LICEN
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_user/repository_name.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_user/repository_name/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_user/repository_name.svg?style=for-the-badge
-[forks-url]: https://github.com/github_user/repository_name/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_user/repository_name.svg?style=for-the-badge
-[stars-url]: https://github.com/github_user/repository_name/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_user/repository_name.svg?style=for-the-badge
-[issues-url]: https://github.com/github_user/repository_name/issues
-[license-shield]: https://img.shields.io/github/license/github_user/repository_name.svg?style=for-the-badge
-[license-url]: https://github.com/github_user/repository_name/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/JelleBuning/talium.svg?style=for-the-badge
+[contributors-url]: https://github.com/JelleBuning/talium/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/JelleBuning/talium.svg?style=for-the-badge
+[forks-url]: https://github.com/JelleBuning/talium/network/members
+[stars-shield]: https://img.shields.io/github/stars/JelleBuning/talium.svg?style=for-the-badge
+[stars-url]: https://github.com/JelleBuning/talium/stargazers
+[issues-shield]: https://img.shields.io/github/issues/JelleBuning/talium.svg?style=for-the-badge
+[issues-url]: https://github.com/JelleBuning/talium/issues
+[license-shield]: https://img.shields.io/github/license/JelleBuning/talium.svg?style=for-the-badge
+[license-url]: https://github.com/JelleBuning/talium/blob/master/LICENSE
