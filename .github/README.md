@@ -47,10 +47,9 @@ Talium is a self-hosted, secure document vault designed to help individuals and 
 By eliminating reliance on third-party cloud providers, Talium gives you complete ownership of your data, wrapped in an intuitive interface that makes document retrieval and management effortless.
 
 ### Features
-
-* **Feature One:** Describe a core responsibility or benefit here.
-* **Feature Two:** Highlight another modular component or capability.
-* **Modern Architecture:** Built with SOLID principles and design patterns for maximum maintainability.
+* **Secure Storage & Encryption:** Protects your documents at rest and in transit, ensuring that sensitive data remains accessible only to authorized users.
+* **Intelligent Tagging & Metadata:** Organize your files your way. Filter, search, and categorize documents using custom tags and metadata for instant retrieval.
+* **Modern Architecture:** Built adhering strictly to SOLID principles and clean architecture design patterns, ensuring the codebase is highly maintainable, scalable, and easy to extend.
 
 ### Built With
 
@@ -97,9 +96,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b features/feature-title`)
+2. Create your Feature Branch (`git checkout -b feature/feature-title`)
 3. Commit your Changes (`git commit -m 'Added feature'`)
-4. Push to the Branch (`git push origin features/feature-title`)
+4. Push to the Branch (`git push origin feature/feature-title`)
 5. Open a Pull Request
 
 
